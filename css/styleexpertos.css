@@ -1,0 +1,143 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+      width: 85px;
+      height: auto;
+  }
+
+  body {
+    background-color:white; 
+    width: 100%;
+  }
+
+  .cont{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .cedla1, .cedla2, .cedla3{
+    width: 400px;
+    height: auto;
+    margin: 5px 15px;
+  }
+  
+  .abajo {
+    width: 80px;
+    margin: 0 160px;
+  }
+  
+  .cedla1 i {
+    font-size: 25px;
+  }
+  
+  .cedla1 li {
+    list-style: none;
+    display: inline;
+  }
+  
+  .cedla2 p {
+    text-align: center;
+    color: #8dc1f7;
+    font-size: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .cedla3 p {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 10px 0;
+  }
+  
+  .cedla3 {
+    text-align: right;
+    color: #8c9fc0;
+  }
+  
+
+.portada {
+    width: 100%;
+    height: 400px;
+    background-image: url(../imgs/portada2.jpg);
+ }
+    .inicial{
+    padding: 120px 100px
+  }
+  
+  .inicial h1 {
+    font-family:'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+  }
+
+  .cajitas {
+    background-color: #ffffff;
+  }
+  
+  .contenedor-cajitas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .ataud {
+    width: 536px;
+    height: 584px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background: #8dc1f7
+  }
+  
+  .ataud:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ataud img {
+    padding: 20px;
+  }
+  
+  .ataud h3 {
+    font-size: 20px;
+    font-weight: 800;
+    border-bottom: 2px solid;
+    margin: 10px 30px;
+    padding-bottom: 5px;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .ataud p {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-left: 30px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+ 
+
